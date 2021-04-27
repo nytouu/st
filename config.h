@@ -112,31 +112,60 @@ float alpha = 1;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#110f19",
-	"#e11537",
-	"#93ff3b",
-	"#ffe100",
-	"#c173ff",
-	"#f4348b",
-	"#23f5e6",
-	"#6a6483",
+	"#414868",
+	"#f7768e",
+	"#9ece6a",
+	"#e0af68",
+	"#7aa2f7",
+	"#bb9af2",
+	"#7dcfff",
+	"#a9b1d6",
 
 	/* 8 bright colors */
-	"#4b4652",
-	"#d77392",
-	"#94e77e",
-	"#ffe771",
-	"#ccaaff",
-	"#ef8dcf",
-	"#7fe8de",
-	"#d7d5f4",
+	"#414868",
+	"#f7768e",
+	"#9ece6a",
+	"#e0af68",
+	"#7aa2f7",
+	"#bb9af2",
+	"#7dcfff",
+	"#c0caf5",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#f5d6f5",
-	"#181621",
+	"#c0caf5",
+	"#24283b",
+	/* "#1a1b26", */
 };
+
+/* static const char *colorname[] = { */
+/* 	/1* 8 normal colors *1/ */
+/* 	"#110f19", */
+/* 	"#e11537", */
+/* 	"#93ff3b", */
+/* 	"#ffe100", */
+/* 	"#c173ff", */
+/* 	"#f4348b", */
+/* 	"#23f5e6", */
+/* 	"#6a6483", */
+
+/* 	/1* 8 bright colors *1/ */
+/* 	"#4b4652", */
+/* 	"#d77392", */
+/* 	"#94e77e", */
+/* 	"#ffe771", */
+/* 	"#ccaaff", */
+/* 	"#ef8dcf", */
+/* 	"#7fe8de", */
+/* 	"#d7d5f4", */
+
+/* 	[255] = 0, */
+
+/* 	/1* more colors can be added after 255 to use with DefaultXX *1/ */
+/* 	"#f5d6f5", */
+/* 	"#181621", */
+/* }; */
 
 /*
  * Default colors (colorname index)
