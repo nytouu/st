@@ -5,7 +5,13 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "CaskaydiaCove Nerd Font Mono:size=12:style=Book:antialias=true:autohint=true";
+static char *font = "Fira Mono:size=12:style=Regular:antialias=true:autohint=true";
+/* static char *font = "CaskaydiaCove Nerd Font:size=12:style=Book:antialias=true:autohint=true"; */
+static char *font2[] = {
+	/* "nonicon:size=12:style=Regular:antialias=true:autohint=true", */
+	"FiraMono Nerd Font:size=12:style=Book:antialias=true:autohint=true",
+};
+
 static int borderpx = 14;
 
 /*
@@ -108,6 +114,7 @@ unsigned int tabspaces = 4;
 
 /* bg opacity */
 float alpha = 1;
+/* float alpha = 0.95; */
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
