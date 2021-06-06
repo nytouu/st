@@ -5,11 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Fira Mono:size=12:style=Regular:antialias=true:autohint=true";
-/* static char *font = "CaskaydiaCove Nerd Font:size=12:style=Book:antialias=true:autohint=true"; */
+static char *font = "Roboto Mono:style=Medium:size=12";
 static char *font2[] = {
-	/* "nonicon:size=12:style=Regular:antialias=true:autohint=true", */
-	"FiraMono Nerd Font:size=12:style=Book:antialias=true:autohint=true",
+	"RobotoMono Nerd Font Mono:style=Medium:size=12",
 };
 
 static int borderpx = 14;
