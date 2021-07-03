@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Roboto Mono:style=Medium:size=12";
+static char *font = "JetBrains Mono:style=Light:size=12";
 static char *font2[] = {
-	"RobotoMono Nerd Font Mono:style=Medium:size=12",
+	"JetBrainsMono Nerd Font:style=Light:size=12",
 };
 
 static int borderpx = 14;
@@ -145,7 +145,7 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#c0caf5",
+    "#c0caf5",
 	"#24283b",
 	/* "#1a1b26", */
 };
