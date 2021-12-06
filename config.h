@@ -5,9 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:style=Light:size=12";
+static char *font = "Liga SFMono Nerd Font:style=Medium:size=12";
 static char *font2[] = {
-	"JetBrainsMono Nerd Font:style=Light:size=12",
+	"Liga SFMono Nerd Font:style=Medium:size=12",
 };
 
 int borderpx = 8;
@@ -117,8 +117,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 1;
-/* float alpha = 0.95; */
+/* float alpha = 1; */
+float alpha = 0.95;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
