@@ -7,7 +7,7 @@
  */
 static char *font = "Liga SFMono Nerd Font:style=Medium:size=12";
 static char *font2[] = {
-	"Liga SFMono Nerd Font:style=Medium:size=12",
+	/* "Liga SFMono Nerd Font:style=Medium:size=12", */
 };
 
 int borderpx = 8;
