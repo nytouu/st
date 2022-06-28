@@ -5,9 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liga SFMono Nerd Font:style=Regular:size=12";
+static char *font = "SF Mono:style=Regular:size=12";
 static char *font2[] = {
-	"JetBrainsMono Nerd Font:style=Regular:size=12",
+	"nonicons:style=Regular:size=12",
+	"Liga SFMono Nerd Font:style=Regular:size=12",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
 /* static char *font2[] = { */
