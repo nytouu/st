@@ -5,10 +5,14 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liga SFMono Nerd Font:style=Medium:size=12";
+static char *font = "Liga SFMono Nerd Font:style=Regular:size=12";
 static char *font2[] = {
-	/* "Liga SFMono Nerd Font:style=Medium:size=12", */
+	"JetBrainsMono Nerd Font:style=Regular:size=12",
 };
+/* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
+/* static char *font2[] = { */
+/* 	"Liga SFMono Nerd Font:style=Regular:size=12", */
+/* }; */
 
 int borderpx = 8;
 
@@ -31,7 +35,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.0;
+static float chscale = 1.1;
 
 /*
  * word delimiter string
