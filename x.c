@@ -2637,6 +2637,7 @@ xrdb_load(void)
 		XRESOURCE_LOAD_STRING("background", colorname[defaultbg]);
 
 		/* XRESOURCE_LOAD_STRING("font", font); */
+		XRESOURCE_LOAD_FLOAT("alpha", alpha);
 	}
 	XFlush(dpy);
 }
