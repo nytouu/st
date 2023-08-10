@@ -5,17 +5,17 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "SF Mono:style=Regular:size=14";
+static char *font = "FantasqueSansM Nerd Font:size=11:style=Regular";
 static char *font2[] = {
-	"nonicons:style=Regular:size=14",
-	"Liga SFMono Nerd Font:style=Regular:size=14",
+    "nonicons:style=Regular:size=13",
+	"Symbols Nerd Font:style=Regular:size=12",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
 /* static char *font2[] = { */
 /* 	"Liga SFMono Nerd Font:style=Regular:size=12", */
 /* }; */
 
-int borderpx = 4;
+int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -36,7 +36,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.1;
+static float chscale = 1.3;
 
 /*
  * word delimiter string
@@ -122,7 +122,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.90;
+float alpha = 0.80;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
