@@ -7,7 +7,7 @@
  */
 static char *font = "FantasqueSansM Nerd Font:size=11:style=Regular";
 static char *font2[] = {
-    "nonicons:style=Regular:size=11",
+    "nonicons:style=Regular:size=10",
 	"Symbols Nerd Font:style=Regular:size=12",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
