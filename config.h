@@ -8,14 +8,14 @@
 static char *font = "FantasqueSansM Nerd Font:size=11:style=Regular";
 static char *font2[] = {
     "nonicons:style=Regular:size=10",
-	"Symbols Nerd Font:style=Regular:size=12",
+	"Symbols Nerd Font:style=Regular:size=11",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
 /* static char *font2[] = { */
 /* 	"Liga SFMono Nerd Font:style=Regular:size=12", */
 /* }; */
 
-int borderpx = 8;
+int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -36,7 +36,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.3;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
