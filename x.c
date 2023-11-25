@@ -15,6 +15,7 @@
 #include <X11/Xft/Xft.h>
 #include <X11/XKBlib.h>
 #include <X11/Xresource.h>
+#include <X11/Xcursor/Xcursor.h>
 
 char *argv0;
 #include "arg.h"
