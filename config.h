@@ -5,17 +5,16 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansM Nerd Font:size=11:style=Regular";
+static char *font = "IBM Plex Mono:size=11:style=Regular";
 static char *font2[] = {
-    "nonicons:style=Regular:size=10",
-	"Symbols Nerd Font:style=Regular:size=10",
+	"BlexMono Nerd Font:style=Regular:size=10",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
 /* static char *font2[] = { */
 /* 	"Liga SFMono Nerd Font:style=Regular:size=12", */
 /* }; */
 
-int borderpx = 2;
+int borderpx = 24;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -36,7 +35,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 1.0;
-static float chscale = 1.0;
+static float chscale = 1.2;
 
 /*
  * word delimiter string
