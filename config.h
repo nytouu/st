@@ -8,6 +8,7 @@
 static char *font = "IBM Plex Mono:size=11:style=Regular";
 static char *font2[] = {
 	"BlexMono Nerd Font:style=Regular:size=10",
+	"nonicons:style=Regular:size=10",
 };
 /* static char *font = "JetBrainsMono Nerd Font:style=Regular:size=12"; */
 /* static char *font2[] = { */
