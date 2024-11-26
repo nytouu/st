@@ -310,6 +310,7 @@ void
 toggleborder(const Arg *arg)
 {
 	borderpx = borderpx ? 0 : defborderpx;
+	redraw();
 }
 
 void
