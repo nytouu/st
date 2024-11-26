@@ -19,7 +19,6 @@
 
 #include "st.h"
 #include "win.h"
-#include "config.h"
 
 #if   defined(__linux)
  #include <pty.h>
@@ -2219,12 +2218,6 @@ void
 toggleprinter(const Arg *arg)
 {
 	term.mode ^= MODE_PRINT;
-}
-
-void
-toggleborder(const Arg *arg)
-{
-	borderpx = borderpx ? 0 : defborderpx;
 }
 
 void

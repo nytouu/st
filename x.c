@@ -67,6 +67,7 @@ static void clipcopy(const Arg *);
 static void clippaste(const Arg *);
 static void numlock(const Arg *);
 static void selpaste(const Arg *);
+static void toggleborder(const Arg *);
 static void zoom(const Arg *);
 static void zoomabs(const Arg *);
 static void zoomreset(const Arg *);
@@ -303,6 +304,12 @@ selpaste(const Arg *dummy)
 {
 	XConvertSelection(xw.dpy, XA_PRIMARY, xsel.xtarget, XA_PRIMARY,
 			xw.win, CurrentTime);
+}
+
+void
+toggleborder(const Arg *arg)
+{
+	borderpx = borderpx ? 0 : defborderpx;
 }
 
 void
