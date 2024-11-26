@@ -2221,6 +2221,12 @@ toggleprinter(const Arg *arg)
 }
 
 void
+toggleborder(const Arg *arg)
+{
+	borderpx = borderpx ? 0 : defborderpx;
+}
+
+void
 printscreen(const Arg *arg)
 {
 	tdump();

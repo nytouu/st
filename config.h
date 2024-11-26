@@ -15,7 +15,8 @@ static char *font2[] = {
 /* 	"Liga SFMono Nerd Font:style=Regular:size=12", */
 /* }; */
 
-int borderpx = 24;
+static const int defborderpx = 24;
+int borderpx = defborderpx;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -234,6 +235,7 @@ static Shortcut shortcuts[] = {
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
 	{ TERMMOD,              XK_Up,          zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Down,        zoom,           {.f = -1} },
+    { TERMMOD,              XK_Space,       toggleborder,   {.i =  0} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
