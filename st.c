@@ -19,6 +19,7 @@
 
 #include "st.h"
 #include "win.h"
+#include "config.h"
 
 #if   defined(__linux)
  #include <pty.h>
